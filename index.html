@@ -1,0 +1,74 @@
+<!DOCTYPE hmtl>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>teste2</title>
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+    </head>
+    <body>
+        <script>
+            let opcoes=prompt("quadrinhos, forms, link, for, keyframe, carrossel, div, filtros, xadrez, memória ou caça-palavras: ").toLocaleLowerCase().trim();
+            
+            if(opcoes=="quadrinhos"){
+                let universo=prompt("mavel ou dc").toLocaleLowerCase().trim();
+                if(universo=="marvel"){
+                    document.write(`
+                    <img class='img' src='img/hulk.png'>
+                    `);
+                }
+                else if(universo=="dc"){
+                    document.write(`
+                    <img class='img' src='img/batman.png'>
+                    `);
+                }
+            }
+
+            // else if(opcoes=="forms"){
+            //     document.write("f");
+            // }
+
+            // else if(opcoes=="link"){
+            //     document.write("l");
+            // }
+
+            // else if(opcoes=="for"){
+            //     document.write("f");
+            // }
+
+            // else if(opcoes=="keyframe"){
+            //     document.write("k");
+            // }
+
+            // else if(opcoes=="carrossel"){
+            //     document.write("c");
+            // }
+
+            // else if(opcoes=="div"){
+            //     document.write("d");
+            // }
+
+            // else if(opcoes=="filtro"){
+            //     document.write("fil");
+            // }
+
+            // else if(opcoes=="xadrez"){
+            //     document.write("x");
+            // }
+
+            // else if(opcoes=="memoria"){
+            //     document.write("m");
+            // }
+
+            // else if(opcoes=="caca palavras"){
+            //     document.write("c");
+            // }
+
+            else{
+                document.write("erro");
+            }
+
+        </script>
+
+    </body>
+</html>
