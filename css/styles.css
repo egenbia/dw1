@@ -1,8 +1,8 @@
 body{
-    background-color: #a9a9a9;
+    background-color: rgb(117, 123, 123);
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .img{
@@ -12,3 +12,120 @@ body{
 .container {
       width: 100%;
     }
+
+/* for */
+.for{
+    margin-top: 100px;
+    margin-left: -125px;
+}
+
+/* keyframes */
+
+#anima-div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 100%;
+    animation: mov-div 2s infinite ease-in-out;
+}
+
+
+@keyframes mov-div {
+    0% {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    20% {
+        margin-left: 50px;
+        margin-top: 0;
+    }
+    40% {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    60% {
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    80% {
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    100% {
+        margin-left: 150px;
+        margin-top: 100px;
+    }
+}
+/* divs */
+.pai{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.nav{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.menu{
+    position:absolute;
+    background-color: blue;
+    margin-top: 100px;
+    height: 600px;
+    width: 200px;
+}
+
+.cont{
+    background-color: rgb(35, 176, 33);
+    margin-top: 100px;
+    margin-left: 200px;
+    height: 600px;
+    width: 80%px;
+}
+
+.footer{
+    background-color: rgb(255, 0, 0);
+    margin-top: 90%px;
+    height: 100px;
+    width: 100%;
+}
+
+/* filtros */
+
+.img1{
+    filter: grayscale(100%);
+    width: 250px;
+    height: 250px;
+}
+.img2{
+    filter: blur(5px);
+    width: 250px;
+    height: 250px;
+}
+.img3{
+    filter: brightness(5);
+    width: 250px;
+    height: 250px;
+}
+.img4{
+    filter: contrast(5);
+    width: 250px;
+    height: 250px;
+}
+
+/* xadrez */
+
+.fundo{
+    background-color: aliceblue;
+}
+.pp{
+    background-color: black;
+}
+
+/* caça palavras */
+.corpalavras{
+    background-color: aqua;
+}
